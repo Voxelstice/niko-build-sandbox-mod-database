@@ -1,0 +1,36 @@
+name: Mod submission
+description: Use this template and fill out the stuff to submit a mod.
+title: "[Mod submission]: "
+body:
+  - type: input
+    id: modDescription
+    attributes:
+      label: Roblox Model Link
+      description: This is required to even load the mod. Please properly specify a valid link.
+      placeholder: https://www.roblox.com/library/1/Mod
+    validations:
+      required: true
+  - type: textarea
+    id: modDescription
+    attributes:
+      label: Mod Description
+      description: Give some good info on what the mod is about
+      placeholder: This mod does one thing
+    validations:
+      required: true
+  - type: textarea
+    id: modContent
+    attributes:
+      label: Mod Content
+      description: Give some info on what kind of features this mod has
+      placeholder: This mod has a bunch of stuf
+    validations:
+      required: true
+  - type: checkboxes
+    id: youReadTheRules
+    attributes:
+      label: Rules
+      description: By submitting the mod, you have read the [mod submission rules](https://github.com/Voxelstice/niko-build-sandbox-mod-database/issues/2)
+      options:
+        - label: I agree to follow the mod submission rules
+          required: true
