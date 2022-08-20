@@ -5,6 +5,4 @@ A github repo as an database of verified mods for nikothegamer100's building san
 People simply can just put malicious stuff, so it's best to have an verification process.
 
 ### How do I get my mod verified?
-hi nikothegamer100 can you fill this out
-
-no i dont think i will
+Your mod may have **0** malicious stuff in it. Please also attempt to make your mod unique.
