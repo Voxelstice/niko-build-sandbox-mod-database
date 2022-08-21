@@ -3,6 +3,10 @@
     "name": "factory mod",
     "description": "Factory mod is a mod including stuff to build an factory.",
     "modid": "builtInMod",
-    "model": "can you believe it, the model link isnt existing yet!"
-  }
+  },
+  "2": {
+	"name": "parkour mod",
+	"description": "Parkour mod is a mod including parkour stuff.",
+	"modid": "builtInMod",
+},
 }
