@@ -3,7 +3,7 @@ description: Use this template and fill out the stuff to submit a mod.
 title: "[Mod submission]: "
 body:
   - type: input
-    id: modDescription
+    id: modLink
     attributes:
       label: Roblox Model Link
       description: This is required to even load the mod. Please properly specify a valid link.
