@@ -2,6 +2,7 @@
   "1": {
     "name": "factory mod",
     "description": "Factory mod is a mod including stuff to build an factory.",
-    "modid": "builtInMod"
+    "modid": "builtInMod",
+    "model": "can you believe it, the model link isnt existing yet!"
   }
 }
