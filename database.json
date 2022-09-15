@@ -2,16 +2,19 @@
 	"1": {
 		"name": "factory mod",
 		"description": "Factory mod is a mod including stuff to build an factory.",
-    		"modid": "not published"
+    		"modid": "not published",
+		"latestversion": "0"
 	},
 	"2": {
 		"name": "parkour mod",
 		"description": "Parkour mod is a mod including parkour stuff.",
-		"modid": "not published"
+		"modid": "not published",
+		"latestversion": "0"
 	},
 	"3": {
 		"name": "example mod",
 		"description": "Example mod is a mod with single plastic block.",
-		"modid": "10916508928"
+		"modid": "10916508928",
+		"latestversion": "13722207873"
 	}
 }
