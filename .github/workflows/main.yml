@@ -15,4 +15,5 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          curl curl -d "content=${{ github.actor }} made a commit: ${{ github.event.head_commit.message }}" -X POST ${{ secrets.WEBHOOKURL }}
+          curl -d "content=${{ github.actor }} made a commit: ${{ github.event.head_commit.message }}" -X POST ${{ secrets.WEBHOOKURL }}
+          curl ${{ secrets.WEBHOOKURL }} -d {\"content\":null,\"embeds\":[{\"title\"=\"**${{ github.actor }}** made a commit.\",\"description\":\"${{ github.event.head_commit.message }}\",\"color"=5814783}]} -H "Content-Type: application/json"
