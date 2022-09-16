@@ -3,8 +3,6 @@ name: uw
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
   workflow_dispatch:
 
@@ -17,5 +15,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          echo discord DISCORD
-          curl curl -d "content=voxel push" -X POST ${{ secrets.WEBHOOKURL }}
+          curl curl -d "content=${{ env.GITHUB_ACTOR }} made a commit: ${{ env.GITHUB_REF_NAME }}" -X POST ${{ secrets.WEBHOOKURL }}
