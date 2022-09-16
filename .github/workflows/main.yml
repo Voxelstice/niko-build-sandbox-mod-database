@@ -15,4 +15,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          curl curl -d "content=${{ github.GITHUB_ACTOR }} made a commit: ${{ github.GITHUB_REF_NAME }}" -X POST ${{ secrets.WEBHOOKURL }}
+          curl curl -d "content=${{ github.actor }} made a commit: ${{ github.ref }}" -X POST ${{ secrets.WEBHOOKURL }}
