@@ -26,5 +26,12 @@
 		"modid": "10935090709",
 		"latestversion": "13748467641",
 		"creator": "nikothegamer100"
-	}
+	},
+	"5": {
+		"name": "VoxelExeuctor",
+		"description": "Executes things",
+		"modid": "10936030157",
+		"latestversion": "13749745470",
+		"creator": "Voxelstice"
+	}	
 }
