@@ -10,6 +10,14 @@ body:
       placeholder: https://www.roblox.com/library/1/Mod
     validations:
       required: true
+  - type: input
+    id: discordUsername
+    attributes:
+      label: Discord Username and Tag
+      description: This is to know if your mod is approved. You also need to be in the Building Sandbox discord.
+      placeholder: Discord User#0000
+    validations:
+      required: true      
   - type: textarea
     id: modDescription
     attributes:
