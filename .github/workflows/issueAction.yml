@@ -15,4 +15,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          curl -d "content=${{ github.actor }} made a submission: ${{ github.event.issue.name }}${{ github.event.issue.number }}" -X POST ${{ secrets.WEBHOOKURL }}
+          curl -d "content=${{ github.actor }} made a submission: ${{ github.event.issue.title }}${{ github.event.issue.number }}" -X POST ${{ secrets.WEBHOOKURL }}
