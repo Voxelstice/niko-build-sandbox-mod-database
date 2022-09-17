@@ -2,17 +2,26 @@ name: discordIssueMessage
 
 on:
   issues:
-    types: [opened]
+    types: [opened, closed]
 
   workflow_dispatch:
 
 jobs:
-  build:
+  opened:
     runs-on: ubuntu-latest
-
+    if: ${{ github.event.issue.open }}
     steps:
       - uses: actions/checkout@v3
 
       - name: Run a multi-line script
         run: |
-          curl -d "content=${{ github.actor }} made a submission: ${{ github.event.issue.title }}${{ github.event.issue.number }}" -X POST ${{ secrets.WEBHOOKURL }}
+          curl -d "content=${{ github.actor }} opened submission: ${{ github.event.issue.title }} ${{ github.event.issue.number }}" -X POST ${{ secrets.WEBHOOKURL }}
+  closed:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.issue.open }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run a multi-line script
+        run: |
+          curl -d "content=${{ github.actor }} closed submission: ${{ github.event.issue.title }} ${{ github.event.issue.number }}" -X POST ${{ secrets.WEBHOOKURL }}
