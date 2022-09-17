@@ -3,8 +3,6 @@ name: discordCommitMessage
 on:
   push:
     branches: [ "main" ]
-  issue_comment:
-    types: [created, deleted]    
 
   workflow_dispatch:
 
