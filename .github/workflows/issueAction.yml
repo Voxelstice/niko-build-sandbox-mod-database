@@ -4,8 +4,6 @@ on:
   issues:
     types: [opened, closed]
 
-  workflow_dispatch:
-
 jobs:
   opened:
     runs-on: ubuntu-latest
@@ -15,7 +13,7 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          curl -d "content=${{ github.actor }} opened submission: ${{ github.event.issue.title }} ${{ github.event.issue.number }}" -X POST ${{ secrets.WEBHOOKURL }}
+          curl -d "content=*${{ github.actor }} opened submission:* ${{ github.event.issue.title }} **#${{ github.event.issue.number }}**" -X POST ${{ secrets.WEBHOOKURL }}
   closed:
     runs-on: ubuntu-latest
     if: ${{ !github.event.issue.open }}
@@ -24,4 +22,4 @@ jobs:
 
       - name: Run a multi-line script
         run: |
-          curl -d "content=${{ github.actor }} closed submission: ${{ github.event.issue.title }} ${{ github.event.issue.number }}" -X POST ${{ secrets.WEBHOOKURL }}
+          curl -d "content=*${{ github.actor }} closed submission:* ${{ github.event.issue.title }} **#${{ github.event.issue.number }}**" -X POST ${{ secrets.WEBHOOKURL }}
