@@ -1,10 +1,10 @@
 {
 	"1": {
-		"name": "factory mod",
-		"description": "Factory mod is a mod including stuff to build an factory.",
-    		"modid": "not published",
-		"latestversion": "0",
-		"creator": "nil"
+		"name": "Voxelstice's Factory Mod",
+		"description": "A mod that adds blocks to make an entire factory!",
+    		"modid": "11063743451",
+		"latestversion": "13911710131",
+		"creator": "Voxelstice"
 	},
 	"2": {
 		"name": "parkour mod",
