@@ -33,5 +33,12 @@
 		"modid": "10936030157",
 		"latestversion": "13750103634",
 		"creator": "Voxelstice"
+	},
+	"6": {
+		"name": "Voxelstice's Combat Mod",
+		"description": "A mod that allows you to literally punch players",
+		"modid": "11086205655",
+		"latestversion": "13938307727",
+		"creator": "Voxelstice"
 	}	
 }
