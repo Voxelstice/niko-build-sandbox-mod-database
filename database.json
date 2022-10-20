@@ -33,5 +33,12 @@
 		"modid": "11086205655",
 		"latestversion": "13956454299",
 		"creator": "Voxelstice"
-	}	
+	},
+	"6": {
+		"name": "Placeholder Overhaul",
+		"description": "This mod aims to improve the building placeholder when you go to place an object. There might be more features to come.",
+		"modid": "11322238324",
+		"latestversion": "14325052820",
+		"creator": "creepycreepermatthew"
+	}
 }
