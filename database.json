@@ -55,5 +55,12 @@
 		"modid":"11337474054",
 		"latestversion":"14365475304",
 		"creator": "creepycreepermatthew"
+	},
+	"9": {
+	        "name":"Recolorable Blocks",
+		"description":"Adds new blocks in the game that you can change the color/material of.",
+		"modid":"11358479870",
+		"latestversion":"14387491578",
+		"creator":"creepycreepermatthew"
 	}
 } 
