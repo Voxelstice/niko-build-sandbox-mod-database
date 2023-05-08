@@ -1,0 +1,12 @@
+{
+  "me.txabx3.examplemod": {
+      "name": "Example Mod",
+      "desc": "This is an example mod withing the new database. It is also used as a template for the new Modding API.",
+      "thumbnail": null,
+      "creator": "494328775",
+      "moduleData": {
+        "modId": "13385813924",
+        "latestVersion":"17304436461"
+      }
+  }
+}
